@@ -1,0 +1,46 @@
+# MATLAB temporary files
+*.asv
+*.m~
+*.autosave
+
+# MEX files
+*.mex*
+
+# Simulink cache
+slprj/
+*.slxc
+*.slx.original
+*.slx.autosave
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Python cache
+__pycache__/
+*.py[cod]
+.Python
+*.pyc
+
+# Logs
+*.log
+
+# Backups
+*.bak
+
+# Editor files
+.vscode/
+.idea/
+
+# MATLAB results
+*.mat
+*.fis
+
+# Generated datasets
+dataset.csv
+hybrid_dataset.csv
+
+# Keep folder structure
+!.gitkeep
