@@ -211,24 +211,6 @@ Regression Output
 3. Train Sugeno FIS with 50 rules
 4. Evaluate on test data with comprehensive metrics
 
-## Requirements
-
-### Software Dependencies
-- **MATLAB**: R2020b or later
-- **Deep Learning Toolbox**: For LSTM implementation
-- **Fuzzy Logic Toolbox**: For ANFIS and FIS operations
-- **Statistics and Machine Learning Toolbox**: For data analysis
-
-### Hardware Recommendations
-- **RAM**: 8GB minimum (16GB recommended for large datasets)
-- **GPU**: Optional but recommended for LSTM training acceleration
-- **Storage**: ~500MB for code, figures, and models
-
-### Data Requirements
-- **Format**: CSV files named `output_*.csv`
-- **Minimum samples**: 1000 rows per file (recommended: 10,000+ total)
-- **Columns**: Error, ErrorRate, Feedback, GeneratedSignal, ControlSignal
-- **Value ranges**: Must align with physical system constraints
 
 ## Installation
 
